@@ -1,0 +1,31 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+      <attr path="/api/package[@name='com.github.se_bastiaan.torrentstream']/class[@name='TorrentOptions.Builder']/method[@name='anonymousMode']" name="visibility">private</attr>
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.frostwire.jlibtorrent']" name="managedName" visibility="public" >FrostWire.Libtorrent</attr>
+  <attr path="/api/package[@name='com.frostwire.jlibtorrent.alerts']" name="managedName" visibility="public">FrostWire.Libtorrent.Alerts</attr>
+  <attr path="/api/package[@name='com.frostwire.jlibtorrent.swig']" name="managedName" visibility="public">FrostWire.Libtorrent.Swig</attr>
+
+  <attr path="/api/package[@name='com.github.se_bastiaan.torrentstream']" name="managedName" visibility="public">Bastiaan.TorrentStream</attr>
+  <attr path="/api/package[@name='com.github.se_bastiaan.torrentstream.exceptions']" name="managedName" visibility="public">Bastiaan.TorrentStream.Exceptions</attr>
+  <attr path="/api/package[@name='com.github.se_bastiaan.torrentstream.listeners']" name="managedName" visibility="public">Bastiaan.TorrentStream.Listeners</attr>
+  <attr path="/api/package[@name='com.github.se_bastiaan.torrentstream.utils']" name="managedName" visibility="public">Bastiaan.TorrentStream.Utils</attr>
+
+  <add-node path="/api/package[@name='com.frostwire.jlibtorrent']/class[@name='Address']">
+    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="object" type="java.lang.Object" />
+    </method>
+  </add-node>
+  <add-node path="/api/package[@name='com.frostwire.jlibtorrent']/class[@name='Sha1Hash']">
+    <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+      <parameter name="object" type="java.lang.Object" />
+    </method>
+  </add-node>
+
+</metadata>

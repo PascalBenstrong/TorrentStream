@@ -1,0 +1,7 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.frostwire.jlibtorrent", Managed="FrostWire.Libtorrent")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.frostwire.jlibtorrent.alerts", Managed="FrostWire.Libtorrent.Alerts")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.frostwire.jlibtorrent.swig", Managed="FrostWire.Libtorrent.Swig")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.github.se_bastiaan.torrentstream", Managed="Bastiaan.TorrentStream")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.github.se_bastiaan.torrentstream.exceptions", Managed="Bastiaan.TorrentStream.Exceptions")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.github.se_bastiaan.torrentstream.listeners", Managed="Bastiaan.TorrentStream.Listeners")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.github.se_bastiaan.torrentstream.utils", Managed="Bastiaan.TorrentStream.Utils")]
